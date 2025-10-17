@@ -1,0 +1,9 @@
+{
+  "name": "harkan-decap-oauth",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "mkdir -p dist && cp -R functions dist/functions && echo \"Built to dist/\""
+  },
+  "devDependencies": {}
+}
