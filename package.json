@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "mkdir -p dist && cp -R functions dist/functions && echo \"Built to dist/\""
+    "deploy": "npx wrangler deploy"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "wrangler": "^3.80.0"
+  }
 }
