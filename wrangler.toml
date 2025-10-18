@@ -2,8 +2,4 @@ name = "harkan-decap-oauth"
 main = "src/index.js"
 compatibility_date = "2024-10-01"
 
-[vars]
-GITHUB_CLIENT_ID = "YOUR_GITHUB_CLIENT_ID"
-GITHUB_CLIENT_SECRET = "YOUR_GITHUB_CLIENT_SECRET"
-OAUTH_REDIRECT_URI = "https://harkan-decap-oauth.YOURSUBDOMAIN.workers.dev/api/callback"
-ALLOWED_REPOS = "yourusername/harkan"
+
